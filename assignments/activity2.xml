@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <messages>
-    <message>
+    <table>
         <empno>1001</empno>
         <empname>Alex</empname>
         <salary>3000</salary>
-    </message>
-    <message>
+    </table>
+    <table>
         <empno>1002</empno>
         <empname>Sarah</empname>
         <salary>4000</salary>
-    </message>
-    <message>
+    </table>
+    <table>
         <empno>1003</empno>
         <empname>Peter</empname>
         <salary>3500</salary>
-    </message>
+    </table>
 </messages>
