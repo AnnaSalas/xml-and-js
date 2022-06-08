@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Library [
+<!ELEMENT Library (shelf+)>
+<!ELEMENT shelf (category,price,title,year,author+)>
+<!ELEMENT author (books*)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT category (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT books (#PCDATA)>
+]>
+<library>
+   <shelf>
+      <author>
+         <books>Giada De Laurentiis</books>
+      </author>
+      <category>cooking</category>
+      <price>30.0</price>
+      <title>Everyday Italian</title>
+      <year>2005</year>
+   </shelf>
+   <shelf>
+      <author>
+         <books>J K. Rowling</books>
+      </author>
+      <category>children</category>
+      <price>29.99</price>
+      <title>Harry Potter</title>
+      <year>2005</year>
+   </shelf>
+   <shelf>
+      <author>
+         <books>James McGovern</books>
+         <books>Per Bothner</books>
+         <books>Kurt Cagle</books>
+         <books>James Linn</books>
+         <books>Vaidyanathan Nagarajan</books>
+      </author>
+      <category>web</category>
+      <price>49.99</price>
+      <title>XQuery Kick Start</title>
+      <year>2003</year>
+   </shelf>
+   <shelf>
+      <author>
+         <books>Erik T. Ray</books>
+      </author>
+      <category>web</category>
+      <price>39.95</price>
+      <title>Learning XML</title>
+      <year>2005</year>
+   </shelf>
+</library>
+
